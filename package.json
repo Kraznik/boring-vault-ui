@@ -12,10 +12,10 @@
     "dist/**/*"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "prepublish": "npm run build",
     "test": "jest",
-    "dev": "webpack --mode production && webpack serve --mode development --open"
+    "dev": "node init && webpack --mode production && webpack serve --mode development --open"
   },
   "keywords": [],
   "author": "Philip Bal",
