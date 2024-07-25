@@ -1,6 +1,6 @@
 {
   "name": "boring-vault-ui",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "A reusable package to quickly integrate boring vaults onto a UI.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,7 @@
     "build": "tsc",
     "prepublish": "npm run build",
     "test": "jest",
-    "dev": "webpack --mode production && webpack serve --mode development --open"
+    "dev": "node api.js && webpack --mode production && webpack serve --mode development --open"
   },
   "keywords": [],
   "author": "Philip Bal",
