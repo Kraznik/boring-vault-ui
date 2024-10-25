@@ -124,4 +124,3 @@ module.exports = {
     children: true, // Display information about child compilations
   },
 };
-*/
