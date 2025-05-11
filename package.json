@@ -15,7 +15,7 @@
     "build": "tsc",
     "prepublish": "npm run build",
     "test": "jest",
-    "dev": "webpack --mode production && webpack serve --mode development --open",
+    "dev": "node api.js && webpack --mode production && webpack serve --mode development --open",
     "type:check": "tsc --noEmit"
   },
   "keywords": [],
